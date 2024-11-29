@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.multimodule.service.MyService;
 
 @RestController
-@RequestMapping("/application-dos")
+@RequestMapping("/applicationdos")
 public class DemoController {
 
 	private final MyService myService;
