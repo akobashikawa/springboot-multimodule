@@ -7,10 +7,12 @@
 ```
 └── library
 └── application
+└── applicationdos
 ```
 
 - `library` produce un jar pero no es una aplicación
 - `application` tiene a `library` como dependencia
+- `applicationdos` tiene a `library` como dependencia
 
 ## Run
 
