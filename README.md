@@ -5,9 +5,17 @@
 ## Módulos
 
 ```
+gs-multi-module
+| pom.xml
 └── library
+| pom.xml
+| application.properties
 └── application
+|  pom.xml
+|  application.properties
 └── applicationdos
+  pom.xml
+  application.properties
 ```
 
 - `library` produce un jar pero no es una aplicación
