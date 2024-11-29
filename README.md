@@ -17,4 +17,9 @@
 ```sh
 mvn clean install
 mvn spring-boot:run -pl application
+# http://localhost:8081/application/home
+# http://localhost:8081/application/swagger-ui-index.html
+mvn spring-boot:run -pl applicationdos
+# http://localhost:8082/applicationdos/home
+# http://localhost:8082/applicationdos/swagger-ui-index.html
 ```
